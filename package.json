@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
-    "lint": "eslint . --fix --cache"
+    "lint": "eslint . --fix --cache",
+    "lint:stylelint": "stylelint \"src/**/*.{scss,css,vue}\""
   },
   "dependencies": {
     "sass": "^1.97.2",
@@ -29,6 +30,7 @@
     "eslint-plugin-vue": "~10.6.2",
     "jiti": "^2.6.1",
     "npm-run-all2": "^8.0.4",
+    "stylelint-config-recommended-vue": "^1.6.1",
     "typescript": "~5.9.3",
     "vite": "^7.3.0",
     "vite-plugin-vue-devtools": "^8.0.5",
